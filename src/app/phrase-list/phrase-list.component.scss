@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+$borderedBlack: 1px solid #000;
+
+form {
+    border: $borderedBlack;
+    border-radius: 8px;
+    width: 300px;
+    padding: 10px;
+
+    input[type="button"] {
+        width: 50px;
+        height: 25px;
+        margin-left: 75%;
+    }
+
+    div {
+        margin-bottom: 5px;
+    }
+
+    label {
+        display: inline-block;
+        width: 80px;
+        text-align: left;
+    }
+}
+
+li {
+    border-bottom: $borderedBlack;
+    width: 250px;
+    margin-bottom: 5px;
+    b {
+        display: inline-block;
+        width: 80px;
+        text-align: left;
+    }
+}
